@@ -1,0 +1,15 @@
+ProgramSettings:
+  jiraUrl: "https://issues.apache.org/jira"
+  threadCount: 25
+  issueInOneRequest: 50
+  minTimeSleep: 1000
+  maxTimeSleep: 60000
+  port: 8081
+  grpcPort: 50051
+
+DBSettings:
+  dbUser: "pguser"
+  dbPassword: "pgpassword"
+  dbHost: "localhost"
+  dbPort: 5432
+  dbName: "testdb"
